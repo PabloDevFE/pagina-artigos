@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+/*
+Cores
+#9AADBF
+#6D98BA
+#D3B99F
+#C17767
+#210203
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #D3B99F;
+}
+
+header {
+    background-color: #210203;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+header div {
+    margin: auto;
+}
+
+header button {
+    height: 45px;
+    width: 120px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    background-color: #D3B99F;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+header button:hover {
+    transition: 0.4s;
+    background-color: #92806e;
+}
+
+header img {
+    max-width: 140px;
+    height: 80px;
+}
+
+main {
+    background-color: #d4d3d1;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding: 80px 10px;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #360305;
+    max-width: 800px;
+    margin: 0px auto 40px auto;
+    background-color: #D3B99F;
+    border-radius: 0px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322);
+}
+
+main p {
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;  
+    padding: 10px 30px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+section {
+    columns: 1;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+section a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #360305;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+
+section img {
+    margin: auto;
+    max-width: 280px;
+}
+
+.artigo-miniatura {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 0px 0px;
+}
+
+footer {
+    background-color: #210203;
+    height: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+
